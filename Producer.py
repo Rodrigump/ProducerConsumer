@@ -1,5 +1,4 @@
 from kafka import KafkaProducer
-import random
 
 producer = KafkaProducer(bootstrap_servers='localhost:9092')
 
